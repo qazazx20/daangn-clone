@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+}
+
+/* header */
+.container .header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .header img {
+    margin: 28px;
+    width: 100px;
+    height: 28px;
+}
+
+.container .nav ul li {
+    display: inline-block;
+    padding: 14px;
+    font-weight: bold;
+}
+
+.container .nav ul li a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.container .nav ul li a:hover {
+    color: rgb(132, 136, 137);
+}
+
+.container .nav_chat {
+    margin: 65px;
+}
+
+.container .nav_chat span {
+    margin: 5px;
+}
+
+input[name=search] {
+    border: none;
+    border-radius: 5px;
+    width: 285px;
+    height: 38px;
+    background-color: rgb(236, 237, 238);
+    padding: 10px;
+    outline: none;
+}
+
+input[name=search]::placeholder {
+    color: gray;
+    font-size: 17px;
+    padding: 5px;
+}
+
+input[name=search]:focus::palcegolder {
+    color: transparent;
+}
+
+button[name=chat] {
+    width: 90px;
+    height: 38px;
+    border-radius: 3px;
+    background-color: white;
+    border-width: thin;
+    font-size: 15px;
+}
+
+button[name=chat]:hover {
+    color: rgb(236, 237, 238);
+    cursor: pointer;
+}
+
+/* main */
+.container main {
+    width: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container main section {
+    display: flex;
+    justify-content: center;
+}
+
+.container main section #text {
+    display: table;
+    margin-left: 100px;
+}
+
+.container main section #text span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container main section #text h1 {
+    font-size: 40px;
+}
+
+.container main section #text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* mainSection_1 */
+.container main .mainSection_1 {
+    height: 784px;
+    background-color: rgb(251, 247, 242);
+}
+
+.container main .mainSection_1 img {
+    width: 804px;
+    height: 750px;
+    margin-top: 34px;
+}
+
+/* mainSection_2 */
+.container main .mainSection_2 {
+    background-color: white;
+}
+
+.container main .mainSection_2 img {
+    width: 532px;
+    height: 684px;
+    margin-top: 30px;
+}
+
+.container main .mainSection_2 button {
+    margin: 8px;
+}
+
+.container main .mainSection_2 button:hover {
+    background-color: rgb(220, 225, 224);
+    cursor: pointer;
+}
+
+.container main .mainSection_2 button {
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.container main .mainSection_2 button[name=button_1] {
+    width: 150px;
+    height: 60px;
+}
+
+.container main .mainSection_2 button[name=button_2] {
+    width: 200px;
+    height: 60px;
+}
+
+/* mainSection_3 */
+.container main .mainSection_3 {
+    background-color: rgb(230, 243, 230);
+}
+
+.container main .mainSection_3 img {
+    width: 546px;
+    height: 740px;
+}
+
+.container main .mainSection_3 #text ul li {
+    list-style-type: none;
+    float: left;
+    width: 140px;
+    margin: 10px;
+}
+
+.container main .mainSection_3 #text #icon img {
+    width: 56px;
+    height: 56px;
+}
+
+.container main .mainSection_3 #text #title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.container main .mainSection_3 #text #contents {
+    font-size: 13px;
+}
+
+/* mainSection_4 */
+.container main .mainSection_4 {
+    background-color: white;
+}
+
+.container main .mainSection_4 img {
+    width: 526px;
+    height: 735px;
+}
+
+.container main .mainSection_4 button {
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.container main .mainSection_4 button {
+    width: 220px;
+    height: 60px;
+}
+
+.container main .mainSection_4 button:hover {
+    background-color: rgb(220, 225, 224);
+    cursor: pointer;
+}
+
+/* footer guide */
+hr {
+    background-color: rgb(215, 217, 226);
+    height: 1px;
+    border: 0;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer .guide {
+    width: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .guide .guidenav {
+    margin-right: 150px;
+}
+
+.footer .guidenav ul {
+    display: inline-table;
+}
+
+.footer .guidenav ul li {
+    list-style-type: none;
+    padding: 15px 5px;
+}
+
+.footer .guidenav ul li a {
+    text-decoration-line: none;
+    color: black;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.footer .guidenav ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .download {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer .download button {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: d1d2d6;
+    border: none;
+    font-weight: bold;
+}
+
+footer .download button span {
+    font-size: 15px;
+}
+
+.footer .download button .apple img {
+    width: 16px;
+    height: 16px;
+}
+
+.footer .download button .google img {
+    width: 18px;
+    height: 18px;
+}
+
+.footer .download button:hover {
+    background-color: e5e6e8;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* footer info */
+.footer .info {
+    width: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .info_1 {
+    /* margin-right: 80px; */
+    margin-right: 19.2px;
+}
+
+.footer .info_1 ul li {
+    list-style-type: none;
+    font-size: 13px;
+    color: rgb(132, 136, 137)
+}
+
+.footer .info_1 ul li span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footer .info_3 {
+    margin-top: 15px;
+}
+
+.footer .info_3 ul li {
+    display: inline-table;
+    padding-right: 10px;
+}
+
+.footer .info_3 ul li a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 14px;
+}
+
+.footer .info_3 ul li a:hover {
+    text-decoration: underline;
+}
+
+/* sns */
+.footer .sns span {
+    margin: 8px;
+}
+
+.footer .sns span img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .sns span img:hover {
+    background-color: white;
+    opacity: 0.3;
+}
+
+.footer .sns select[name=nation] {
+    text-align: center;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer .sns select[name=nation]:hover {
+    cursor: pointer;
+    border: 0;
+    background-color:rgb(237, 237, 237);
+}
